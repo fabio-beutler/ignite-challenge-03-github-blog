@@ -1,9 +1,8 @@
-import { HeaderContainer } from './styles';
-
 import coverImg from '../../assets/cover-clear.svg';
-import logoImg from '../../assets/logo.svg';
 import leftLines from '../../assets/left-lines.svg';
+import logoImg from '../../assets/logo.svg';
 import rightLines from '../../assets/right-lines.svg';
+import { HeaderContainer } from './styles';
 
 export function Header() {
   return (
