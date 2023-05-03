@@ -1,4 +1,4 @@
-import { api } from '../lib/api';
+import { api } from "../lib/api";
 
 export interface User {
   name: string;
@@ -7,6 +7,7 @@ export interface User {
   followers: number;
   login: string;
   company: string | null;
+  html_url: string;
 }
 
 export async function userLoader(): Promise<Response> {

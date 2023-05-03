@@ -1,0 +1,9 @@
+###
+GET https://api.github.com/repos
+Accept: application/json
+
+###
+GET https://api.github.com/users/fabio-beutler
+Accept: application/json
+
+###
